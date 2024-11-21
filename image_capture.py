@@ -32,7 +32,7 @@ def capture_photos(name):
     print(f"Taking photos for {name}. Press SPACE to capture, 'q' to quit.")
 
     while True:
-        # Capture frame from Pi Camera
+        # Capture frame from Camera
         ret, frame = cap.read()
 
         # Display the frame
