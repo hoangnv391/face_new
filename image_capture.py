@@ -5,9 +5,8 @@ import time
 
 cap = cv2.VideoCapture(0)
 
-# Cấu hình độ phân giải cho video preview
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)  # Độ rộng 640 pixel
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)  # Độ cao 480 pixel
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 # Change this to the name of the person you're photographing
 PERSON_NAME = "Hoang"
