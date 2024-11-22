@@ -87,6 +87,8 @@ while True:
     cv2.putText(display_frame, f"FPS: {current_fps:.1f}", (display_frame.shape[1] - 150, 30),
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
+    cv2.imshow('Video', display_frame)
+
     # Break the loop and stop the script if 'q' is pressed
     if cv2.waitKey(1) == ord("q"):
         break
